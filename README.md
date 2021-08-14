@@ -8,10 +8,9 @@ Entities:
 User 
 - (Base on the Identity User)
 	- First Name, Last Name, IsActive
-Customer
-
+- Customer
 	- Id, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax
-Order
+- Order
 
 	- Id, CustomerId, OrderDate, RequiredDate, ShipingAddress (Name, Address, City, Region, PostalCode, Country, etc) : include which feilds can be used for order
 
