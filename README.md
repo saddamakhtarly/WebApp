@@ -5,8 +5,8 @@ This is a simple Web Application to get to know your understanding of the Asp.Ne
 
 Entities:
 --------
-User 
-- (Base on the Identity User)
+- User 
+	- (Base on the Identity User)
 	- First Name, Last Name, IsActive
 - Customer
 	- Id, CompanyName, ContactName, ContactTitle, Address, City, Region, PostalCode, Country, Phone, Fax
