@@ -27,10 +27,11 @@ namespace WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
             services.AddDbContextPool<AuthDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AuthConnectionString")));
+            
             services.AddIdentity<AppUser, IdentityRole>()
-                .AddEntityFrameworkStores<AuthDbContext>()
-                ;
+                .AddEntityFrameworkStores<AuthDbContext>();
             //services.AddScoped<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.ConfigureApplicationCookie(config =>
             {
