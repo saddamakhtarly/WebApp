@@ -22,9 +22,6 @@ Requirements:
 	- User Identity Server for Login/Register with the User extra fields as mentioned above. 
 	- CURD for both Customer and his orders. i would love to see the one-to-many relation implemented here. 
 
-Submitting the Task:
-
-	- Upload it to GitHub as a public repo and share the link with me. I should be able to download it then run it without any issues. (of-course i will be updating the Connection String to point to my sql server)
 
 
 ## Tech Stack
