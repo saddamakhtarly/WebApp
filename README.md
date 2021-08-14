@@ -2,6 +2,7 @@
 # Web App
 
 Technologies: 
+--------
 	- ASP.NET Core 5, 
 	- EF Core (Code First), 
 	- MVC/Razor Pages (both if needed), 
@@ -10,6 +11,7 @@ Technologies:
 	- Identity Server for User Management
 
 Task:
+--------
 	- This is a simple task to get to know your understanding of the Asp.Net Core and how its features work and how you utilize those. In this Task you need to create a simple login base app to perform a simple CRUD operation. 
 
 Entities:
