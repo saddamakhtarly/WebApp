@@ -39,7 +39,7 @@ Requirements:
 
 **Deployment Server:** Identity Server, IIS
   
-### Deployment
+## Deployment
 
 To deploy this project run
 
