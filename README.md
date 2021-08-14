@@ -49,10 +49,10 @@ To deploy this project run
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
-https://www.youtube.com/watch?v=RDKfRecm0g8
-https://www.youtube.com/watch?v=PpqdsJDvcxY
-https://www.youtube.com/watch?v=B0_gM-wBlmE
+- [Documentation](https://linktodocumentation)
+- https://www.youtube.com/watch?v=RDKfRecm0g8
+- https://www.youtube.com/watch?v=PpqdsJDvcxY
+- https://www.youtube.com/watch?v=B0_gM-wBlmE
 
 - @*Adding BootStrap 5 CDN Links*@ in WebApp=>Pages=>Shared=>_Layout.cshtml
 
