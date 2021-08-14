@@ -30,8 +30,8 @@ namespace WebApp
 
             services.AddDbContextPool<AuthDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AuthConnectionString")));
             
-            services.AddIdentity<AppUser, IdentityRole>()
-                .AddEntityFrameworkStores<AuthDbContext>();
+            services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AuthDbContext>();
+
             //services.AddScoped<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.ConfigureApplicationCookie(config =>
             {

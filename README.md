@@ -55,6 +55,19 @@ To deploy this project run
 - https://www.youtube.com/watch?v=B0_gM-wBlmE
 
 - @*Adding BootStrap 5 CDN Links*@ in WebApp=>Pages=>Shared=>_Layout.cshtml
+- Install Entity Framework Core (Code First Approach)
+Sql Server
+Tools for Migration
+- Add Connection String into appsettings.json
+- Crate Class of IdintityDbContext
+- add DbContext in Startup.cs 
+- add Authentication in Startup.cs 
+
+- Create and Implement Register Prge
+- Create and Implement Login Prge
+- Change Navigation Menu in Layout
+- Add Authorization in Home and Privacy Page
+- Create and Implement Logout
 
 
 Custom Identity UserTable
